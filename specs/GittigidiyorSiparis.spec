@@ -12,5 +12,4 @@ Gittigidiyor Siparis
 * Giris yapilir ve kontrol edilir
 * Urun Ara ve Random Urun Sec
 * Secilen urunu sepete ekle ve fiyatları karsilastir
- Urun adedini arttir ve kontrol et.
 * Sepeti temizle ve bos oldugunu kontrol et
