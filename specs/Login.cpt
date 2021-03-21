@@ -1,0 +1,12 @@
+# Giris yapilir ve kontrol edilir
+* "//a[@class='tyj39b-3 fEwnjq']" Xpath'li elemente tıkla.
+* "2" saniye bekle
+* "//div[@title='Giriş Yap']" Xpath'li Elemente git
+* "//a[@data-cy='header-login-button']" Xpath'li elemente tıkla.
+* "2" saniye bekle
+* "L-UserNameField" Id'li elemente "semademir285@gmail.com" i yazdir
+* "L-PasswordField" Id'li elemente "Smn.123" i yazdir
+* "gg-login-enter" Id'li elemente tıkla.
+* "2" saniye bekle
+* "//a[@title='Siparişlerim']" li element var mı ? "Siparişlerim"
+* "2" saniye bekle

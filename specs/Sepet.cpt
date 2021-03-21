@@ -1,0 +1,31 @@
+# Urun Ara ve Random Urun Sec
+* "//input[@data-cy='header-search-input']" Xpath'li elemente "Bilgisayar" i yazdir
+* "2" saniye bekle
+* "//button[@data-cy='search-find-button']" Xpath'li elemente tıkla.
+* "2" saniye bekle
+* "//div[@class='related-searches-wrapper']" Xpath'li Elemente git
+* "2" saniye bekle
+* "(//ul[@class='clearfix']/li)[4]" Xpath'li elemente tıkla.
+* "2" saniye bekle
+* "//ul[@class='catalog-view clearfix products-container']/li" li elementlerden random urun sec ve tikla
+* "2" saniye bekle
+
+# Secilen urunu sepete ekle ve fiyatları karsilastir
+* "//div[@id='sp-price-discountPrice']" Xpath'li Elementin textini al.
+* "//button[@id='add-to-basket']" Xpath'li Elemente git
+* "2" saniye bekle
+* "//button[@id='add-to-basket']" Xpath'li elemente tıkla.
+* "2" saniye bekle
+* "(//a[@href='https://www.gittigidiyor.com/sepetim'])[1]" Xpath'li elemente tıkla.
+* "2" saniye bekle
+* "//p[@class='new-price']" Xpath'li elementin texti ile gelenText'i karsilastir.
+* "2" saniye bekle
+* "//option[@value='2']" Xpath'li elemente tıkla.
+* "2" saniye bekle
+* "//*[contains(text(),'Ürün Toplamı (2 Adet)')]" li element var mı ? "Ürün Toplamı (2 Adet)"
+* "2" saniye bekle
+
+# Sepeti temizle ve bos oldugunu kontrol et
+* "(//a[@title='Sil'])[1]" Xpath'li elemente tıkla.
+* "2" saniye bekle
+* "//h2[contains(text(),'Sepetinizde ürün bulunmamaktadır.')]" li element var mı ? "Sepetinizde ürün bulunmamaktadır."
